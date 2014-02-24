@@ -52,24 +52,31 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Introduction to trigonometric waves
 - Modulating scale and speed of patterns
 - Applying wave functions to create patterns of movement and time
-- Recursive drawing
+- [Notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-3)
 
 ##### Resources for Class
 - Install [MIDI BUS library](http://www.smallbutdigital.com/themidibus.php)
 
 
-##### HW 3: TBD 
+##### HW 3: Part 1 Due Mon Feb 17th | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- Take 1 of your 3 studies from last week and iterate on it by aiming for the physical characteristics assigned to it by your partner in class. [See notes](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Week-3) for the complete list of characteristics with links to examples.
+- Post to your blog and write 1-2 sentences about what changed.
 
-### Week 4: DisrupInterruption
+##### HW 3: Part 2 Due Sun Feb 23rd | [Post to HW Wiki](https://github.com/mimiyin/coding-for-emotional-impact/wiki/Homework)
+- Create 3 micro-arcs (< 10s each). Document them. Write 1-2 sentences to describe each micro-arc. 
+- Choose 1 to loop for 10 minutes. Write 1-2 sentences to describe the pattern at 10s, 30s, 2 minutes, 5 minutes, and 10 minutes. What changes?
+
+### Week 4: Micro-Arcs Part 2
+- Decoding wave functions
+- Non-organic wave functions: Square and Sawtooth
+- Recursive drawing
+
+### Week 5: DisrupInterruption & Unpredictaprobability
 - How do you establish a pattern?
 - Once you've established it, how do you break it?
 - What is monotony? What is surprise?
 - Defining ratios and proportions with linear and non-linear scaling.
 - Judicious use of random() and noise().
-
-##### HW 4: TBD
-
-### Week 5: Unpredictaprobability
 - Using probability to generate "unpredictable" patterns that disorient and destabilize.
 
 ##### HW 5: TBD
@@ -84,11 +91,6 @@ Have questions? Email me at mimi.yin@nyu.edu | Sign up for [Office Hours](https:
 - Storygrapher.
 - Non-linear scoring. Pong and Pinatas.
 
-##### HW 6: TBD
-##### HW 7: TBD
-
-
-##### HW 8: TBD
 
 ### Week 8,9: Pulling It All Together
 - A polyphonic model for composing narrative and emotional arc.
