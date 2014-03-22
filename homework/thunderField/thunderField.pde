@@ -7,5 +7,8 @@ void setup() {
 }
 
 void draw() {
-  
+  background(152);
+  r.makeItRain(0);
+  r.run();
 }
+
