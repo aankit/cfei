@@ -7,17 +7,21 @@ class Trash{
     v = new PVector(0,0);
     a = new PVector(0,0);
     g = new PVector(0,.03);
-    diam = random(10,20);
+    diam = random(20,40);
   }
   
-  public void update(){
+  private void applyForce(PVector f){
+    a.add(f);
+  }
+  
+  private void update(){
     a.add(g);
     v.add(a);
     l.add(v);
     a.mult(0);
   }
   
-  public void display(){
+  private void display(){
     fill(128);
     ellipse(l.x, l.y, diam, diam);
   }

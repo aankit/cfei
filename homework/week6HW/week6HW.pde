@@ -1,29 +1,28 @@
 Water w;
-Trash t;
-boolean trash;
+ArrayList<Trash> trash;
+
 
 void setup() {
   size(600, 600);
   w = new Water();
-  trash = false;
+  trash = new ArrayList<Trash>();
 }
 
 
 void draw() {
+  //println(frameRate);
   background(255);
-  if (trash) {
+  for (Trash t : trash) {
     t.update();
     t.display();
-    w.run(t);
-  } 
-  else {
-    w.display();
+    w.run(t);   
   }
+  w.display();
+
 }
 
 void mousePressed() {
   PVector mouse = new PVector(mouseX, mouseY);
-  t = new Trash(mouse);
-  trash = true;
+  trash.add(new Trash(mouse));
 }
 
